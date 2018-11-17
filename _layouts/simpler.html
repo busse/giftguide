@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-70579400-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)};
+  gtag('js', new Date());
+
+  gtag('config', 'UA-70579400-1');
+</script>
+
+	
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>{{site.description}}</title>
+	<link rel="stylesheet" href="/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/css/main.css" type="text/css" />
+	<link rel="stylesheet" href="/css/syntax.css" type="text/css" />
+	<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300|Roboto:700" rel="stylesheet">
+	<!--<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">-->
+	<link href="/feed.xml" type="application/rss+xml" rel="alternate" title="busse.io" />
+ 
+</head>
+ 
+<body>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 col-md-3"><a href="/">Busse's Gift Guide 2018: XX Ideas</a></div>
+		</div><div class="row">
+			<div class="col-sm-12 col-md-9 ">
+				<h1>{{ page.title }}</h1>
+				<span class="dateline">{{ page.seq }}</span>
+			</div>
+			
+		</div>
+		
+		<div class="row">
+			<div class="col-sm-12 col-md-9">
+			{{content}}
+			</div>
+		</div>
+
+		<div class="row footer">
+	        <div class="col-sm-12 col-md-9">
+	        		<div class="panel panel-default">
+					<div class="panel-body">
+			        	{% include footer.html %}	
+			        </div>
+			    </div>
+			</div>		
+		</div>
+
+	</div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+  
+</body> 
+</html>

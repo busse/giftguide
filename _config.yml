@@ -1,0 +1,30 @@
+collections:
+  my_categories:
+    output: true
+    permalink: /category/:name/
+  ideas:
+    output: true
+    permalink: /ideas/:name/
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: my_categories
+    values:
+      layout: simpler
+
+
+
+  -
+    scope:
+      path: ""
+      type: drafts
+    values:
+      layout: post
+
+permalink: /:title/
+
+name: giftguide.busse.io
+description: Busse's Gift Guide 2018 - Field Tested Products
+url: http://giftguide.busse.io
