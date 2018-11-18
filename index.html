@@ -2,35 +2,26 @@
 layout: simpler
 ---
 
+{% assign groups = site.ideas | group_by: "category" | sort: "seq" %}
+
 <div class="row content1">
-	<div class="col-sm-offset-2 col-sm-8">
-		{% assign groups = site.ideas | group_by: "category" | sort: "seq" %}
+	<div class="col-md-12">
+		
 			
 		{% for group in groups %}
-		    <p><span class="dateline">{{ group.name }}</span><br />
+
+		    <p><span class="groupname"><a id={{ group.name }}></a>{{ group.name }}</span></p>
 		    {% for item in group.items %}
-		        <span class="titlelist"><a href="{{ item.link }}">{{item.title}}</a></span> <br />
-		        {{item.content}}
+		        <span class="itemtitle"><a href="{{ item.link }}">{{item.title}}</a></span>
+		        <div class="itemcontent">{{item.content}}</div>
 		    {%endfor%}
 		{%endfor%}
 
 	</div>
 </div>
 
-<div class="row content3">
-    <div class="col-sm-offset-2 col-sm-4">
-    	
-    	
 
-
-    </div>
-    <div class="col-sm-4">
-
-
-
-    </div>
-</div>
 
 <div class="row footer">
-    <div class="col-sm-offset-2 col-sm-8"></div>
+    <div class="col-md-12"></div>
 </div>

@@ -51,7 +51,7 @@ p {
 }
 
 a:link, a:visited, a:hover, a:active {
-	color: #FF8800;
+	color: #0066ff;
 	text-decoration: none;
 }
 
@@ -81,6 +81,35 @@ i {
 .row {
 	/* display: flex; */
 	margin-bottom:0.4em;
+}
+
+
+.sitename {
+	font-family: 'Roboto', sans-serif;
+	font-size: 2.0em;
+	font-weight: 900;
+	color: #000000; 
+}
+
+.groupname {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.6em;
+	font-weight: 900;
+	color: #000000; 
+}
+
+.itemtitle {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.2em;
+	font-weight: 600;
+	color: blue; 
+}
+.itemcontent {
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.9em;
+	font-weight: 400;
+	color: #000000; 
+	margin-bottom: 28px;
 }
 
 .dateline {
@@ -115,7 +144,10 @@ i {
 
 }
 .footer-text {
-font-size: 16px;
+font-family: 'Roboto', sans-serif;
+	font-size: 0.7em;
+	font-weight: 400;
+	color: #000000; 
 
 }
 

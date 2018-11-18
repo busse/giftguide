@@ -8,6 +8,4 @@ category: Travel
 tags:
 ---
 
-This is the red idea
-
-I think it is a good one
+Lorem ipsum dolor amet raw denim bushwick asymmetrical roof party fam. Occupy kale chips sriracha asymmetrical williamsburg jianbing fashion axe actually cardigan. Pop-up pok pok banh mi shaman. Typewriter gluten-free kickstarter schlitz, tbh air plant readymade health goth swag. Meh mixtape gochujang schlitz seitan chicharrones drinking vinegar kombucha photo booth paleo wolf kickstarter kogi.
