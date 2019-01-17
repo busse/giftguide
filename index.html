@@ -12,7 +12,7 @@ layout: simpler
 
 		    <p><span class="groupname"><a id={{ group.name }}></a>{{ group.name }}</span></p>
 		    {% for item in group.items %}
-		        <span class="itemtitle"><a href="{{ item.link }}">{{item.title}}</a></span>
+		        <div class="itemtitle"><a href="{{ item.link }}">{{item.title}}</a></div>
 		        <div class="itemcontent">{{item.content}}</div>
 		    {%endfor%}
 		{%endfor%}

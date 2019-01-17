@@ -103,6 +103,7 @@ i {
 	font-size: 1.2em;
 	font-weight: 600;
 	color: blue; 
+	margin-bottom: 14px;
 }
 .itemcontent {
 	font-family: 'Roboto', sans-serif;
